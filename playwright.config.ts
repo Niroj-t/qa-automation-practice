@@ -46,9 +46,9 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
     {
-      name: 'sajilo-hr',
-      testDir: './hr-tests',
-      use: { ...devices['Desktop Chrome'], baseURL: 'http://localhost:5050' },
+    name: 'sajilo-hr',
+    testDir: './hr-tests',
+    use: { ...devices['Desktop Chrome'], baseURL: 'http://localhost:5050' },
     },
 
     /* Test against mobile viewports. */
